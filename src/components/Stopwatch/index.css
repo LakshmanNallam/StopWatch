@@ -1,0 +1,56 @@
+.mainDiv {
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.GameCon {
+  margin: 104px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxShaCon {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 13px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnCon {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.btn1 {
+  background-color: #1db05f;
+  color: white;
+  border-width: 0px;
+  padding: 9px;
+  border-radius: 5px;
+}
+.btn2 {
+  background-color: #ef0d36;
+  color: white;
+
+  border-width: 0px;
+  padding: 9px;
+  border-radius: 5px;
+}
+.btn3 {
+  color: white;
+  border-width: 0px;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: #eaa800;
+}
